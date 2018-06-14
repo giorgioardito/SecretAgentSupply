@@ -131,13 +131,19 @@ footer {
 }
 /* mobile version */
 @media only screen and (max-width:470px) {
+  .main-banner {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 15rem;
+  }
   .headline {
     background-color: black;
     color: white;
-    width: 20em;
     padding: 1rem 2rem;
     position: relative;
-    top: 9em;
+    top: 10rem;
     line-height: 2.25em;
   }
   .headline h1 {
@@ -169,9 +175,7 @@ footer {
   .product.glasses {
     display: none;
   }
-
   .info {
     width: 90%;
   }
-}
 }
